@@ -156,3 +156,8 @@ a:visited {
 	a#function-image span { background-position: -324px -28px; }
 	a#function-help span { background-position: -405px -28px; }
 }
+
+/* Don't let pygmentize's definitions mess up MathJax */
+.MathJax * {
+	color: white !important;
+}
